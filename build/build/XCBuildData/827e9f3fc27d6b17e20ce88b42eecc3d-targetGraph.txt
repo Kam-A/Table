@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in spreadsheet, no dependencies
+spreadsheet in spreadsheet, depends on:
+ZERO_CHECK in spreadsheet (explicit)
+ALL_BUILD in spreadsheet, depends on:
+spreadsheet in spreadsheet (explicit)
+ZERO_CHECK in spreadsheet (explicit)

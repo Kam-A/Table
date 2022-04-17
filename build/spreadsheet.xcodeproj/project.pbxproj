@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1AB0F2FF4FCF49338C8BE457 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2E8FAEE9B85E436EBF321E91 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A692BF46531E0BED2A5FF336 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		429DB8664E574BF69D8589A1 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D6BA191BD8EC481EBFF69ED1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DA760106AAA34ED11F5A9F51 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				A6647CBFC04245BCA05AD6B6 /* PBXTargetDependency */,
+				F386A9659DD44798A4401464 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		5017D5304C564F99A906A2CB /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02FDD85B57DD4C078E97D0DF /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				5B0DA8DA4355449CA95AF18E /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1424717EED4748CEBE58A937 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.cpp */ = {isa = PBXBuildFile; fileRef = 98B9BD48784340CD9FDDE31F /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.cpp */; };
+		29FF2308650E4BBA87D60031 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.cpp */ = {isa = PBXBuildFile; fileRef = 7355F5479AF54F6AAC080B4D /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.cpp */; };
+		305D6AA3CE3341ACA3781A2B /* /Users/user/learning_temp/c_plus/final_project/final_table/formula.h */ = {isa = PBXBuildFile; fileRef = D23ECFFD5EE6411EB958EA22 /* /Users/user/learning_temp/c_plus/final_project/final_table/formula.h */; };
+		382C08AC1A0145D7BBACD360 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.h */ = {isa = PBXBuildFile; fileRef = 58E563C97C304252B43DB812 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.h */; };
+		4A5747AFF8E542C4B2F80B24 /* /Users/user/learning_temp/c_plus/final_project/final_table/sheet.h */ = {isa = PBXBuildFile; fileRef = 8F4D186CCCEE47C2BC0156FA /* /Users/user/learning_temp/c_plus/final_project/final_table/sheet.h */; };
+		4A748ADBA7B24EF491DC5FE5 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.h */ = {isa = PBXBuildFile; fileRef = 28F87B5FD6374757B5D4F69A /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.h */; };
+		4B77D20683E148F8B7B1A2CF /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.cpp */ = {isa = PBXBuildFile; fileRef = 82DB86806AC3458F98B77056 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.cpp */; };
+		5EAC6B5A34A34ED2925E8742 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.cpp */ = {isa = PBXBuildFile; fileRef = 9FF7466E6A3F4A5C8ED68C47 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.cpp */; };
+		61A8B7E413474EC1965E7B9B /* /Users/user/learning_temp/c_plus/final_project/final_table/test_runner_p.h */ = {isa = PBXBuildFile; fileRef = EE1942E7EF4A491399794268 /* /Users/user/learning_temp/c_plus/final_project/final_table/test_runner_p.h */; };
+		84EEA4B91DAD4D0CB72E31A1 /* /Users/user/learning_temp/c_plus/final_project/final_table/structures.cpp */ = {isa = PBXBuildFile; fileRef = B4514686B5394E8A81B1BBDE /* /Users/user/learning_temp/c_plus/final_project/final_table/structures.cpp */; };
+		864E6DAAEA3A4566B735A774 /* /Users/user/learning_temp/c_plus/final_project/final_table/main.cpp */ = {isa = PBXBuildFile; fileRef = 3E55429C549D40E5ACDBBE07 /* /Users/user/learning_temp/c_plus/final_project/final_table/main.cpp */; };
+		8B0805581C3A4E4DB28A7B65 /* /Users/user/learning_temp/c_plus/final_project/final_table/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F17C2084B777458E9DD7ED1A /* /Users/user/learning_temp/c_plus/final_project/final_table/CMakeLists.txt */; };
+		8C8BFDEE5485476DB0D6FB43 /* /Users/user/learning_temp/c_plus/final_project/final_table/sheet.cpp */ = {isa = PBXBuildFile; fileRef = 4ACE63CCE736465B96A82724 /* /Users/user/learning_temp/c_plus/final_project/final_table/sheet.cpp */; };
+		8D9AE6E0CCAB4A05A680A2E6 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.h */ = {isa = PBXBuildFile; fileRef = 8FFB8DFC3ED24EEF99FBDEFF /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.h */; };
+		A57FB40BC8CA44C7BE10C2CE /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.h */ = {isa = PBXBuildFile; fileRef = 83942F84C9A34646AABA8ADB /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.h */; };
+		AA443C0BB109439CB2185E43 /* /Users/user/learning_temp/c_plus/final_project/final_table/FormulaAST.cpp */ = {isa = PBXBuildFile; fileRef = BAB8B463D1174983AB38B91C /* /Users/user/learning_temp/c_plus/final_project/final_table/FormulaAST.cpp */; };
+		ABFD1E9EE86747E5A8A218FC /* /Users/user/learning_temp/c_plus/final_project/final_table/cell.h */ = {isa = PBXBuildFile; fileRef = 549BB91E66144EC9A470E040 /* /Users/user/learning_temp/c_plus/final_project/final_table/cell.h */; };
+		CCF53FFA6E6F4D9B89FB3334 /* /Users/user/learning_temp/c_plus/final_project/final_table/FormulaAST.h */ = {isa = PBXBuildFile; fileRef = 1BE0678C72C34F7698BBE7E4 /* /Users/user/learning_temp/c_plus/final_project/final_table/FormulaAST.h */; };
+		E120E89283534EB5A40EB6BC /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.interp.rule */ = {isa = PBXBuildFile; fileRef = B06915FC0653481CABF29236 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.interp.rule */; };
+		E6F5561E258E45F7849ED92F /* /Users/user/learning_temp/c_plus/final_project/final_table/cell.cpp */ = {isa = PBXBuildFile; fileRef = D3FACBC7637542838F4F5A03 /* /Users/user/learning_temp/c_plus/final_project/final_table/cell.cpp */; };
+		EA3FE3FAFCBE45DCAADD432A /* /Users/user/learning_temp/c_plus/final_project/final_table/common.h */ = {isa = PBXBuildFile; fileRef = D420E507754E4AFCA8A54D8B /* /Users/user/learning_temp/c_plus/final_project/final_table/common.h */; };
+		FEAF6EE245E742649D8C764C /* /Users/user/learning_temp/c_plus/final_project/final_table/formula.cpp */ = {isa = PBXBuildFile; fileRef = 79ECE8AEEF3E49B8BB5712BB /* /Users/user/learning_temp/c_plus/final_project/final_table/formula.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		5250068642D14241BF54A209 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		8F2BC5589B9744658DDFB920 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9534E401C5A24ED0A5853FC0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C6057B666F2A49E6B6C19C35 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		94DC83B21BEA4B3580A09B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BA621079E84968939E57BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB0F2FF4FCF49338C8BE457;
+			remoteInfo = ZERO_CHECK;
+		};
+		A1C81C66180A4C089566D6D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BA621079E84968939E57BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB0F2FF4FCF49338C8BE457;
+			remoteInfo = ZERO_CHECK;
+		};
+		F4A8E32934EB4F1CA7C8904A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BA621079E84968939E57BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D001F049F445F784C77CE4;
+			remoteInfo = spreadsheet;
+		};
+		FAE218F6D90F4F3DA2D2FAF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BA621079E84968939E57BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429DB8664E574BF69D8589A1;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE0678C72C34F7698BBE7E4 /* /Users/user/learning_temp/c_plus/final_project/final_table/FormulaAST.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FormulaAST.h; path = FormulaAST.h; sourceTree = SOURCE_ROOT; };
+		28F87B5FD6374757B5D4F69A /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FormulaParser.h; path = build/antlr4cpp_generated_src/Formula/FormulaParser.h; sourceTree = SOURCE_ROOT; };
+		3E55429C549D40E5ACDBBE07 /* /Users/user/learning_temp/c_plus/final_project/final_table/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		4ACE63CCE736465B96A82724 /* /Users/user/learning_temp/c_plus/final_project/final_table/sheet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sheet.cpp; path = sheet.cpp; sourceTree = SOURCE_ROOT; };
+		549BB91E66144EC9A470E040 /* /Users/user/learning_temp/c_plus/final_project/final_table/cell.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cell.h; path = cell.h; sourceTree = SOURCE_ROOT; };
+		58E563C97C304252B43DB812 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FormulaBaseListener.h; path = build/antlr4cpp_generated_src/Formula/FormulaBaseListener.h; sourceTree = SOURCE_ROOT; };
+		7355F5479AF54F6AAC080B4D /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FormulaListener.cpp; path = build/antlr4cpp_generated_src/Formula/FormulaListener.cpp; sourceTree = SOURCE_ROOT; };
+		79ECE8AEEF3E49B8BB5712BB /* /Users/user/learning_temp/c_plus/final_project/final_table/formula.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = formula.cpp; path = formula.cpp; sourceTree = SOURCE_ROOT; };
+		82DB86806AC3458F98B77056 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FormulaBaseListener.cpp; path = build/antlr4cpp_generated_src/Formula/FormulaBaseListener.cpp; sourceTree = SOURCE_ROOT; };
+		83942F84C9A34646AABA8ADB /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FormulaLexer.h; path = build/antlr4cpp_generated_src/Formula/FormulaLexer.h; sourceTree = SOURCE_ROOT; };
+		85E9B5F0124447FC9DF2F0C1 /* /Users/user/learning_temp/c_plus/final_project/final_table/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8E06A13A2066476D8D9CF220 /* spreadsheet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = spreadsheet; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4D186CCCEE47C2BC0156FA /* /Users/user/learning_temp/c_plus/final_project/final_table/sheet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sheet.h; path = sheet.h; sourceTree = SOURCE_ROOT; };
+		8FFB8DFC3ED24EEF99FBDEFF /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FormulaListener.h; path = build/antlr4cpp_generated_src/Formula/FormulaListener.h; sourceTree = SOURCE_ROOT; };
+		98B9BD48784340CD9FDDE31F /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FormulaLexer.cpp; path = build/antlr4cpp_generated_src/Formula/FormulaLexer.cpp; sourceTree = SOURCE_ROOT; };
+		9FF7466E6A3F4A5C8ED68C47 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FormulaParser.cpp; path = build/antlr4cpp_generated_src/Formula/FormulaParser.cpp; sourceTree = SOURCE_ROOT; };
+		B06915FC0653481CABF29236 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.interp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = FormulaLexer.interp.rule; path = build/antlr4cpp_generated_src/Formula/FormulaLexer.interp.rule; sourceTree = SOURCE_ROOT; };
+		B4514686B5394E8A81B1BBDE /* /Users/user/learning_temp/c_plus/final_project/final_table/structures.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = structures.cpp; path = structures.cpp; sourceTree = SOURCE_ROOT; };
+		BAB8B463D1174983AB38B91C /* /Users/user/learning_temp/c_plus/final_project/final_table/FormulaAST.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FormulaAST.cpp; path = FormulaAST.cpp; sourceTree = SOURCE_ROOT; };
+		D23ECFFD5EE6411EB958EA22 /* /Users/user/learning_temp/c_plus/final_project/final_table/formula.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = formula.h; path = formula.h; sourceTree = SOURCE_ROOT; };
+		D3FACBC7637542838F4F5A03 /* /Users/user/learning_temp/c_plus/final_project/final_table/cell.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell.cpp; path = cell.cpp; sourceTree = SOURCE_ROOT; };
+		D420E507754E4AFCA8A54D8B /* /Users/user/learning_temp/c_plus/final_project/final_table/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = common.h; sourceTree = SOURCE_ROOT; };
+		EE1942E7EF4A491399794268 /* /Users/user/learning_temp/c_plus/final_project/final_table/test_runner_p.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = test_runner_p.h; path = test_runner_p.h; sourceTree = SOURCE_ROOT; };
+		F17C2084B777458E9DD7ED1A /* /Users/user/learning_temp/c_plus/final_project/final_table/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28262BA0959457E8F11058F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FBFFB2D8BB4ECD8331DF5F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				B06915FC0653481CABF29236 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.interp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1A94E798CC5E437EA14F99B7 /* spreadsheet */ = {
+			isa = PBXGroup;
+			children = (
+				9A3FC5EAA5734EC1A5A65E25 /* Header Files */,
+				7281ADF18C8A463BA5D58A30 /* Source Files */,
+				04FBFFB2D8BB4ECD8331DF5F /* CMake Rules */,
+				F17C2084B777458E9DD7ED1A /* /Users/user/learning_temp/c_plus/final_project/final_table/CMakeLists.txt */,
+			);
+			name = spreadsheet;
+			sourceTree = "<group>";
+		};
+		4A8568431ECF4615B6B811D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E06A13A2066476D8D9CF220 /* spreadsheet */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5932E8C1D1D049648D34B25F = {
+			isa = PBXGroup;
+			children = (
+				1A94E798CC5E437EA14F99B7 /* spreadsheet */,
+				968091D9016A43BA93E128A5 /* ALL_BUILD */,
+				4A8568431ECF4615B6B811D8 /* Products */,
+				A5802CB62BF74D908B55CFC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7281ADF18C8A463BA5D58A30 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAB8B463D1174983AB38B91C /* /Users/user/learning_temp/c_plus/final_project/final_table/FormulaAST.cpp */,
+				82DB86806AC3458F98B77056 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.cpp */,
+				98B9BD48784340CD9FDDE31F /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.cpp */,
+				7355F5479AF54F6AAC080B4D /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.cpp */,
+				9FF7466E6A3F4A5C8ED68C47 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.cpp */,
+				D3FACBC7637542838F4F5A03 /* /Users/user/learning_temp/c_plus/final_project/final_table/cell.cpp */,
+				79ECE8AEEF3E49B8BB5712BB /* /Users/user/learning_temp/c_plus/final_project/final_table/formula.cpp */,
+				3E55429C549D40E5ACDBBE07 /* /Users/user/learning_temp/c_plus/final_project/final_table/main.cpp */,
+				4ACE63CCE736465B96A82724 /* /Users/user/learning_temp/c_plus/final_project/final_table/sheet.cpp */,
+				B4514686B5394E8A81B1BBDE /* /Users/user/learning_temp/c_plus/final_project/final_table/structures.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		968091D9016A43BA93E128A5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D945456E5EAC45DA98E892BE /* CMake Rules */,
+				85E9B5F0124447FC9DF2F0C1 /* /Users/user/learning_temp/c_plus/final_project/final_table/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9A3FC5EAA5734EC1A5A65E25 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BE0678C72C34F7698BBE7E4 /* /Users/user/learning_temp/c_plus/final_project/final_table/FormulaAST.h */,
+				58E563C97C304252B43DB812 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.h */,
+				83942F84C9A34646AABA8ADB /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.h */,
+				8FFB8DFC3ED24EEF99FBDEFF /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.h */,
+				28F87B5FD6374757B5D4F69A /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.h */,
+				549BB91E66144EC9A470E040 /* /Users/user/learning_temp/c_plus/final_project/final_table/cell.h */,
+				D420E507754E4AFCA8A54D8B /* /Users/user/learning_temp/c_plus/final_project/final_table/common.h */,
+				D23ECFFD5EE6411EB958EA22 /* /Users/user/learning_temp/c_plus/final_project/final_table/formula.h */,
+				8F4D186CCCEE47C2BC0156FA /* /Users/user/learning_temp/c_plus/final_project/final_table/sheet.h */,
+				EE1942E7EF4A491399794268 /* /Users/user/learning_temp/c_plus/final_project/final_table/test_runner_p.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A5802CB62BF74D908B55CFC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D945456E5EAC45DA98E892BE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58D001F049F445F784C77CE4 /* spreadsheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8035CA72D2C449DBB3C69D92 /* Build configuration list for PBXNativeTarget "spreadsheet" */;
+			buildPhases = (
+				669F57C22A04C9EC3B49627A /* Generate antlr4cpp_generated_src/Formula/FormulaBaseListener.cpp */,
+				EAC52C7C19564DECAC87CED1 /* Sources */,
+				B28262BA0959457E8F11058F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F631AD4F29245A897351137 /* PBXTargetDependency */,
+			);
+			name = spreadsheet;
+			productName = spreadsheet;
+			productReference = 8E06A13A2066476D8D9CF220 /* spreadsheet */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81BA621079E84968939E57BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = 5B5EE567EF7A4B639ED36282 /* Build configuration list for PBXProject "spreadsheet" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C6057B666F2A49E6B6C19C35 /* Debug */,
+				8F2BC5589B9744658DDFB920 /* Release */,
+				9534E401C5A24ED0A5853FC0 /* MinSizeRel */,
+				5250068642D14241BF54A209 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 5932E8C1D1D049648D34B25F;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				429DB8664E574BF69D8589A1 /* ALL_BUILD */,
+				1AB0F2FF4FCF49338C8BE457 /* ZERO_CHECK */,
+				5017D5304C564F99A906A2CB /* install */,
+				58D001F049F445F784C77CE4 /* spreadsheet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		669F57C22A04C9EC3B49627A /* Generate antlr4cpp_generated_src/Formula/FormulaBaseListener.cpp */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+/Users/user/learning_temp/c_plus/final_project/final_table/Formula.g4			);
+			name = "Generate antlr4cpp_generated_src/Formula/FormulaBaseListener.cpp";
+			outputPaths = (
+/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.cpp,/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.h,/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.cpp,/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.h,/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.interp,/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.tokens,/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.cpp,/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.h,/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.cpp,/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.h			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table
+  \"/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java\" -jar /Users/user/learning_temp/c_plus/final_project/final_table/antlr-4.9.2-complete.jar Formula.g4 -o /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula -no-listener -Dlanguage=Cpp -listener
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table
+  \"/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java\" -jar /Users/user/learning_temp/c_plus/final_project/final_table/antlr-4.9.2-complete.jar Formula.g4 -o /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula -no-listener -Dlanguage=Cpp -listener
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table
+  \"/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java\" -jar /Users/user/learning_temp/c_plus/final_project/final_table/antlr-4.9.2-complete.jar Formula.g4 -o /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula -no-listener -Dlanguage=Cpp -listener
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table
+  \"/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java\" -jar /Users/user/learning_temp/c_plus/final_project/final_table/antlr-4.9.2-complete.jar Formula.g4 -o /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula -no-listener -Dlanguage=Cpp -listener
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  /usr/local/Cellar/cmake/3.22.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A692BF46531E0BED2A5FF336 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/user/learning_temp/c_plus/final_project/final_table/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  make -f /Users/user/learning_temp/c_plus/final_project/final_table/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  make -f /Users/user/learning_temp/c_plus/final_project/final_table/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  make -f /Users/user/learning_temp/c_plus/final_project/final_table/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  make -f /Users/user/learning_temp/c_plus/final_project/final_table/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DA760106AAA34ED11F5A9F51 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/user/learning_temp/c_plus/final_project/final_table/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/user/learning_temp/c_plus/final_project/final_table/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC52C7C19564DECAC87CED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA443C0BB109439CB2185E43 /* /Users/user/learning_temp/c_plus/final_project/final_table/FormulaAST.cpp */,
+				4B77D20683E148F8B7B1A2CF /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaBaseListener.cpp */,
+				1424717EED4748CEBE58A937 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaLexer.cpp */,
+				29FF2308650E4BBA87D60031 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaListener.cpp */,
+				5EAC6B5A34A34ED2925E8742 /* /Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula/FormulaParser.cpp */,
+				E6F5561E258E45F7849ED92F /* /Users/user/learning_temp/c_plus/final_project/final_table/cell.cpp */,
+				FEAF6EE245E742649D8C764C /* /Users/user/learning_temp/c_plus/final_project/final_table/formula.cpp */,
+				864E6DAAEA3A4566B735A774 /* /Users/user/learning_temp/c_plus/final_project/final_table/main.cpp */,
+				8C8BFDEE5485476DB0D6FB43 /* /Users/user/learning_temp/c_plus/final_project/final_table/sheet.cpp */,
+				84EEA4B91DAD4D0CB72E31A1 /* /Users/user/learning_temp/c_plus/final_project/final_table/structures.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F631AD4F29245A897351137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB0F2FF4FCF49338C8BE457 /* ZERO_CHECK */;
+			targetProxy = 94DC83B21BEA4B3580A09B7E /* PBXContainerItemProxy */;
+		};
+		5B0DA8DA4355449CA95AF18E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 429DB8664E574BF69D8589A1 /* ALL_BUILD */;
+			targetProxy = FAE218F6D90F4F3DA2D2FAF2 /* PBXContainerItemProxy */;
+		};
+		A6647CBFC04245BCA05AD6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D001F049F445F784C77CE4 /* spreadsheet */;
+			targetProxy = F4A8E32934EB4F1CA7C8904A /* PBXContainerItemProxy */;
+		};
+		F386A9659DD44798A4401464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB0F2FF4FCF49338C8BE457 /* ZERO_CHECK */;
+			targetProxy = A1C81C66180A4C089566D6D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A4A8F5EFB89489AA0162A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		17B9382345C544459CAFF7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",ANTLR4CPP_STATIC,_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula,/Users/user/learning_temp/c_plus/final_project/final_table/antlr4_runtime/runtime/src,/Users/user/learning_temp/c_plus/final_project/final_table/antlr4_runtime,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -pedantic -Werror -Wno-unused-parameter -Wno-implicit-fallthrough     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/user/learning_temp/c_plus/final_project/evaluate_for_tree/lib/libantlr4-runtime.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = spreadsheet;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		18D36969D64244C49BF09843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build/build;
+			};
+			name = Release;
+		};
+		1F967F0D14C04DF486A39B2F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",ANTLR4CPP_STATIC,_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula,/Users/user/learning_temp/c_plus/final_project/final_table/antlr4_runtime/runtime/src,/Users/user/learning_temp/c_plus/final_project/final_table/antlr4_runtime,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -pedantic -Werror -Wno-unused-parameter -Wno-implicit-fallthrough     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/user/learning_temp/c_plus/final_project/evaluate_for_tree/lib/libantlr4-runtime.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = spreadsheet;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2AB4236E20F24E7A8C10439D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		355DC19E7D334B628929F66C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		5BD1A1EDDF194F87AC6122C4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5CCEBD687E604C57A3672CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		61CCBF84715C45E8BF163833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",ANTLR4CPP_STATIC,_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula,/Users/user/learning_temp/c_plus/final_project/final_table/antlr4_runtime/runtime/src,/Users/user/learning_temp/c_plus/final_project/final_table/antlr4_runtime,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -pedantic -Werror -Wno-unused-parameter -Wno-implicit-fallthrough    '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/user/learning_temp/c_plus/final_project/evaluate_for_tree/lib/libantlr4-runtime.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = spreadsheet;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		86EEB020FFB247819BB6E3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		870BA94C5D604CB0B85CBF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A332040ECF3246069BE37EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build/build;
+			};
+			name = Debug;
+		};
+		A48DBBF7342C4CD0BC14664A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B9B2EDC3833D43E38C3976CC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C0C7E7BA08414FE2B3E7A36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C412F2D9F784433D8DFDEBA7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C8408FC7174D43A3A78E1C6B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",ANTLR4CPP_STATIC,_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/user/learning_temp/c_plus/final_project/final_table/build/antlr4cpp_generated_src/Formula,/Users/user/learning_temp/c_plus/final_project/final_table/antlr4_runtime/runtime/src,/Users/user/learning_temp/c_plus/final_project/final_table/antlr4_runtime,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -pedantic -Werror -Wno-unused-parameter -Wno-implicit-fallthrough        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/user/learning_temp/c_plus/final_project/evaluate_for_tree/lib/libantlr4-runtime.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = spreadsheet;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D94A93C72BEE4AA883E2F1AC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F8BD09C1735C452A944B4490 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build/build;
+			};
+			name = MinSizeRel;
+		};
+		F996E4F329854C5BBE5D3ED5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/learning_temp/c_plus/final_project/final_table/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02FDD85B57DD4C078E97D0DF /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870BA94C5D604CB0B85CBF44 /* Debug */,
+				2AB4236E20F24E7A8C10439D /* Release */,
+				B9B2EDC3833D43E38C3976CC /* MinSizeRel */,
+				5BD1A1EDDF194F87AC6122C4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2E8FAEE9B85E436EBF321E91 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4A8F5EFB89489AA0162A76 /* Debug */,
+				C0C7E7BA08414FE2B3E7A36E /* Release */,
+				C412F2D9F784433D8DFDEBA7 /* MinSizeRel */,
+				F996E4F329854C5BBE5D3ED5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5B5EE567EF7A4B639ED36282 /* Build configuration list for PBXProject "spreadsheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A332040ECF3246069BE37EBE /* Debug */,
+				18D36969D64244C49BF09843 /* Release */,
+				F8BD09C1735C452A944B4490 /* MinSizeRel */,
+				355DC19E7D334B628929F66C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8035CA72D2C449DBB3C69D92 /* Build configuration list for PBXNativeTarget "spreadsheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CCBF84715C45E8BF163833 /* Debug */,
+				17B9382345C544459CAFF7C9 /* Release */,
+				1F967F0D14C04DF486A39B2F /* MinSizeRel */,
+				C8408FC7174D43A3A78E1C6B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D6BA191BD8EC481EBFF69ED1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86EEB020FFB247819BB6E3CD /* Debug */,
+				5CCEBD687E604C57A3672CE2 /* Release */,
+				A48DBBF7342C4CD0BC14664A /* MinSizeRel */,
+				D94A93C72BEE4AA883E2F1AC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81BA621079E84968939E57BC /* Project object */;
+}

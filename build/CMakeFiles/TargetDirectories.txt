@@ -1,0 +1,4 @@
+/Users/user/learning_temp/c_plus/final_project/final_table/build/CMakeFiles/spreadsheet.dir
+/Users/user/learning_temp/c_plus/final_project/final_table/build/CMakeFiles/install.dir
+/Users/user/learning_temp/c_plus/final_project/final_table/build/CMakeFiles/ALL_BUILD.dir
+/Users/user/learning_temp/c_plus/final_project/final_table/build/CMakeFiles/ZERO_CHECK.dir
